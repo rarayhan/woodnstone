@@ -790,7 +790,7 @@ export default function App() {
           <div className="flex justify-center mb-20">
             <div className="max-w-xl w-full relative overflow-hidden border border-border-gold shadow-xl">
               <div className="absolute inset-0 z-0">
-                <img src="img/img2.jpg" alt="" className="w-full h-full object-cover" />
+                <img src="/img/img2.jpg" alt="" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-white/40" />
               </div>
               <motion.img 
@@ -901,7 +901,7 @@ export default function App() {
               className="relative w-full max-w-xl border-4 border-white shadow-2xl overflow-hidden cursor-pointer"
             >
               <div className="absolute inset-0 z-0">
-                <img src="img/img11.jpg" alt="" className="w-full h-full object-cover" />
+                <img src="/img/img11.jpg" alt="" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-white/40" />
               </div>
               <img 
