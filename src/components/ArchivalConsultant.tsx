@@ -74,9 +74,12 @@ export const ArchivalConsultant: React.FC = () => {
             {/* Header */}
             <div className="bg-bg-deep p-4 border-b border-accent-gold/20 flex items-center gap-3">
               <div className="w-8 h-8 bg-accent-red flex items-center justify-center text-white font-serif font-bold text-lg">师</div>
-              <div>
-                <h4 className="text-[10px] uppercase tracking-widest text-accent-gold font-bold">Exhibition Guide</h4>
+              <div className="flex-1">
+                <h4 className="text-[10px] uppercase tracking-widest text-accent-gold font-bold">DeepSeek AI Guide</h4>
                 <p className="text-sm font-serif text-text-main">Archival Consultant</p>
+              </div>
+              <div className="text-[8px] uppercase tracking-widest text-text-dim border border-accent-gold/20 px-2 py-1 rounded-sm">
+                Powered by DeepSeek
               </div>
             </div>
 
