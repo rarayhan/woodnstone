@@ -77,7 +77,7 @@ const TimberDiagram = () => {
   return (
     <div className="relative w-full aspect-square border border-border-gold p-8 rounded-sm overflow-hidden group">
       <div className="absolute inset-0 z-0">
-        <img src="img/img12.png" alt="" className="w-full h-full object-cover" />
+        <img src="/img/img12.png" alt="" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-white/40" />
       </div>
       <svg viewBox="0 0 100 100" className="w-full h-full">
@@ -477,7 +477,7 @@ const DetailView = ({ section, onClose }: { section: any, onClose: () => void })
         }}
       >
         <div className="absolute inset-0">
-          <img src={section.images?.[0] || (section.title === dt.power.title ? "img/img11.jpg" : "img/img15.png")} alt="" className="w-full h-full object-cover" />
+          <img src={section.images?.[0] || (section.title === dt.power.title ? "img/img11.jpg" : "/img/img15.png")} alt="" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-black/50" />
         </div>
         <div className="relative text-center px-10 pointer-events-none">
@@ -777,7 +777,7 @@ export default function App() {
       {/* 1. THE WORLD OF CHINESE ARCHITECTURE */}
       <section id="world" className="py-40 px-10 group relative overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src="img/img2.jpg" alt="" className="w-full h-full object-cover" />
+          <img src="/img/img2.jpg" alt="" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-white/90" />
         </div>
         <div className="max-w-7xl mx-auto relative z-10 text-center">
@@ -822,7 +822,7 @@ export default function App() {
       {/* 3. HOW BUILDINGS WORK */}
       <section id="structure" className="py-40 border-y border-accent-gold/20 group relative overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src="img/img12.png" alt="" className="w-full h-full object-cover" />
+          <img src="/img/img12.png" alt="" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-bg-surface/90" />
         </div>
         <div className="max-w-7xl mx-auto px-10 text-center relative z-10">
@@ -883,7 +883,7 @@ export default function App() {
       {/* 5. POWER AND ORDER */}
       <section id="power" className="py-40 border-y border-accent-gold/20 overflow-hidden relative group">
         <div className="absolute inset-0 z-0">
-          <img src="img/img11.jpg" alt="" className="w-full h-full object-cover" />
+          <img src="/img/img11.jpg" alt="" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-bg-surface/90" />
         </div>
         <div className="max-w-7xl mx-auto px-10 relative z-10 text-center">
@@ -933,7 +933,7 @@ export default function App() {
       {/* 6. THE DESIGN OF CITIES */}
       <section id="cities" className="py-40 px-10 group relative overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src="img/img14.png" alt="" className="w-full h-full object-cover" />
+          <img src="/img/img14.png" alt="" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-white/80" />
         </div>
         <div className="max-w-7xl mx-auto text-center relative z-10">
@@ -966,7 +966,7 @@ export default function App() {
       {/* 7. MOVEMENT AND CONNECTION */}
       <section id="connection" className="py-40 border-y border-accent-gold/20 group relative overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img src="img/img15.png" alt="" className="w-full h-full object-cover" />
+          <img src="/img/img15.png" alt="" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-bg-surface/90" />
         </div>
         <div className="max-w-7xl mx-auto px-10 text-center relative z-10">
