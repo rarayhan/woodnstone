@@ -861,7 +861,7 @@ export default function App() {
             onClick={() => setSelectedSection('life')}
           />
           <div className="grid md:grid-cols-2 gap-12 mb-20 items-center transition-all">
-            <ModelViewer url="/img/3dobj1.glb" />
+              <ModelViewer url="/img/3dobj1.glb" />
             <div className="relative">
               <CourtyardDiagram />
             </div>
